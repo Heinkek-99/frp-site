@@ -80,18 +80,18 @@ export default function AboutPage() {
         <div className="container-custom">
           <div className="flex items-center justify-between h-20">
             <Link href="/" className="flex items-center space-x-3">
-              <div className="relative w-12 h-12">
+              <div className="relative relative w-80 h-80 ">
                 <Image 
-                  src="https://customer-assets.emergentagent.com/job_63e47ad1-399c-426d-a02b-8be03de1d437/artifacts/p7oxud0w_Frp-logo.png"
+                  src="/images/F-1.png"
                   alt="Face Aux Risques Logo"
                   fill
                   className="object-contain"
                 />
               </div>
-              <div className="hidden md:block">
+              {/* <div className="hidden md:block">
                 <div className="font-bold text-lg text-foreground">Face Aux Risques</div>
                 <div className="text-xs text-muted-foreground">Sécurité Industrielle</div>
-              </div>
+              </div> */}
             </Link>
 
             <div className="hidden lg:flex items-center space-x-8">

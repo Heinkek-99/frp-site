@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion, useAnimation, useInView } from 'framer-motion'
 import { useRef } from 'react'
+import NextLink from 'next/link'
 import Navbar from '@/components/Navbar'
 import { 
   Shield, 
@@ -28,8 +29,7 @@ import {
   Star,
   Building2,
   Zap,
-  TrendingUp,
-  Link
+  TrendingUp
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
@@ -340,78 +340,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-background">
       {/* Navigation */}
       <Navbar />
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
-        <div className="container-custom">
-          <div className="flex items-center justify-between h-20">
-            {/* Logo */}
-            <div className="flex items-center space-x-3">
-              <div className="relative w-80 h-80">
-                <Image 
-                  src="/images/Frp-logo.png"
-                  alt="Face Aux Risques Logo"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              {/* <div className="hidden md:block">
-                <div className="font-bold text-lg text-foreground">Face Aux Risques</div>
-                <div className="text-xs text-muted-foreground">Sécurité Industrielle</div>
-              </div> */}
-            </div>
 
-            {/* Desktop Menu */}
-            <div className="hidden lg:flex items-center space-x-8">
-              <Link href="/" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Accueil</Link>
-              <Link href="/services" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Services</Link>
-              <Link href="/process" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Notre Process</Link>
-              <Link href="/portfolio" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Projets</Link>
-              <Link href="/portfolio" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Témoignages</Link>
-              <Link href="/contact" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Contact</Link>
-            </div>
-
-            {/* CTA Button */}
-            <div className="hidden lg:flex items-center space-x-4">
-              <a href="tel:+237699699522" className="flex items-center space-x-2 text-sm font-medium text-foreground hover:text-primary transition-colors">
-                <Phone className="w-4 h-4" />
-                <span>+237 699 699 522</span>
-              </a>
-              <Button asChild className="gradient-primary text-white">
-                <a href="#contact">Audit Gratuit</a>
-              </Button>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <button 
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 text-foreground"
-            >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
-          </div>
-
-          {/* Mobile Menu */}
-          {mobileMenuOpen && (
-            <motion.div 
-              initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: 'auto' }}
-              exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden py-4 border-t border-border"
-            >
-              <div className="flex flex-col space-y-4">
-                <Link href="/services" className="text-sm font-medium text-foreground hover:text-primary" onClick={() => setMobileMenuOpen(false)}>Services</Link>
-                <Link href="/about" className="text-sm font-medium text-foreground hover:text-primary" onClick={() => setMobileMenuOpen(false)}>Notre Process</Link>
-                <Link href="/portfolio" className="text-sm font-medium text-foreground hover:text-primary" onClick={() => setMobileMenuOpen(false)}>Projets</Link>
-                <Link href="#temoignages" className="text-sm font-medium text-foreground hover:text-primary" onClick={() => setMobileMenuOpen(false)}>Témoignages</Link>
-                <Link href="/contact" className="text-sm font-medium text-foreground hover:text-primary" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
-                <a href="tel:+237699699522" className="flex items-center space-x-2 text-sm font-medium text-primary">
-                  <Phone className="w-4 h-4" />
-                  <span>+237 699 699 522</span>
-                </a>
-              </div>
-            </motion.div>
-          )}
-        </div>
-      </nav>
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
@@ -607,10 +536,10 @@ export default function HomePage() {
             className="text-center mt-12"
           >
             <Button asChild size="lg" className="gradient-primary text-white">
-              <a href="#contact">
+              <NextLink href="#contact">
                 Demander un Devis Gratuit
                 <ArrowRight className="w-5 h-5 ml-2" />
-              </a>
+              </NextLink>
             </Button>
           </motion.div>
         </div>
@@ -1184,10 +1113,6 @@ export default function HomePage() {
                     className="object-contain"
                   />
                 </div>
-                {/* <div>
-                  <div className="font-bold">Face Aux Risques SA</div>
-                  <div className="text-xs text-gray-400">Sécurité Industrielle</div>
-                </div> */}
               </div>
               <p className="text-sm text-gray leading-relaxed">
                 22 ans d'expertise en sécurité incendie et gestion des risques industriels au Cameroun.
@@ -1232,10 +1157,10 @@ export default function HomePage() {
             <div>
               <h3 className="font-bold text-lg mb-4">Liens Rapides</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><Link href="/services" className="hover:text-primary transition-colors">Nos Services</Link></li>
-                <li><Link href="/portfolio" className="hover:text-primary transition-colors">Projets Réalisés</Link></li>
-                <li><Link href="/portfolio" className="hover:text-primary transition-colors">Témoignages</Link></li>
-                <li><Link href="/contact" className="hover:text-primary transition-colors">Nous Contacter</Link></li>
+                <li><NextLink href="/services" className="hover:text-primary transition-colors">Nos Services</NextLink></li>
+                <li><NextLink href="/portfolio" className="hover:text-primary transition-colors">Projets Réalisés</NextLink></li>
+                <li><NextLink href="/portfolio" className="hover:text-primary transition-colors">Témoignages</NextLink></li>
+                <li><NextLink href="/contact" className="hover:text-primary transition-colors">Nous Contacter</NextLink></li>
               </ul>
             </div>
           </div>
