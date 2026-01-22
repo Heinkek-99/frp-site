@@ -66,7 +66,7 @@ RESEND_API_KEY=re_hQ5Ur94Q_Kg8CQjHN2kP3ZWdiSBPmfry2
 
 ## 📧 Formulaire de Contact
 
-Le formulaire envoie automatiquement les demandes à `faceauxrisques@faceauxrisques.com` via Resend.
+Le formulaire envoie automatiquement les demandes à `heidy.kengne@faceauxrisques.com` via Resend.
 
 ### Champs du formulaire
 - Nom complet (requis)
