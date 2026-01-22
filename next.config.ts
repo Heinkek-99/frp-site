@@ -9,9 +9,9 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false,
   },
   
-  eslint: {
-    ignoreDuringBuilds: false,
-  },
+  // eslint: {
+  //   ignoreDuringBuilds: false,
+  // },
 
   // Configuration Turbopack (Next.js 16)
   turbopack: {
@@ -76,6 +76,22 @@ const nextConfig: NextConfig = {
     ]
   },
 
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'frp-site.vercel.app',  // Ton domaine Vercel
+          },
+        ],
+        destination: 'https://faceauxrisques.com/:path*',
+        permanent: true,
+      },
+    ]
+  },
+  
   // Packages externes pour serveur (remplace experimental.serverComponentsExternalPackages)
   serverExternalPackages: ['resend'],
 }
