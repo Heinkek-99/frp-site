@@ -83,7 +83,7 @@ const nextConfig: NextConfig = {
         has: [
           {
             type: 'host',
-            value: 'frp-site.vercel.app',  // Ton domaine Vercel
+            value: 'frp-site-three.vercel.app',  // Ton domaine Vercel
           },
         ],
         destination: 'https://faceauxrisques.com/:path*',
