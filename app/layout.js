@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr" className={inter.className}>
       <head>
-        <link rel="icon" href="./images/frp.png" />
+        <link rel="icon" href="frp.png" />
       </head>
       <body className="antialiased">
         {children}
