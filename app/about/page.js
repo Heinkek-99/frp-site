@@ -145,7 +145,7 @@ export default function AboutPage() {
                   Fondée en <strong className="text-foreground">2003</strong>, Face Aux Risques SA est née de la conviction qu'une approche professionnelle et rigoureuse de la sécurité industrielle était essentielle pour accompagner le développement économique du Cameroun.
                 </p>
                 <p>
-                  Depuis plus de <strong className="text-foreground">22 ans</strong>, nous avons développé une expertise reconnue en sécurité incendie, gestion des risques industriels et formations QHSE. Partenaire privilégié des plus grandes entreprises camerounaises (ENEO, SONARA), nous avons sécurisé plus de <strong className="text-foreground">500 sites industriels</strong>.
+                  Depuis plus de <strong className="text-foreground">24 ans</strong>, nous avons développé une expertise reconnue en sécurité incendie, gestion des risques industriels et formations QHSE. Partenaire privilégié des plus grandes entreprises camerounaises (ENEO, SONARA), nous avons sécurisé plus de <strong className="text-foreground">500 sites industriels</strong>.
                 </p>
                 <p>
                   Notre expansion en France en 2020 témoigne de notre ambition de devenir le <strong className="text-foreground">leader régional de la sécurité industrielle</strong> en Afrique Centrale, tout en respectant les standards internationaux les plus exigeants.

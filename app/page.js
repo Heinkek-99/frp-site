@@ -397,10 +397,10 @@ export default function HomePage() {
               className="flex flex-col sm:flex-row gap-4"
             >
               <Button asChild size="lg" className="gradient-primary text-white text-base px-8">
-                <a href="#contact" className="flex items-center space-x-2">
+                <Link href="/contact" className="flex items-center space-x-2">
                   <span>Audit Gratuit en 48h</span>
                   <ArrowRight className="w-5 h-5" />
-                </a>
+                </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20 text-base px-8">
                 <a href="tel:+237699699522" className="flex items-center space-x-2">
@@ -536,7 +536,7 @@ export default function HomePage() {
             className="text-center mt-12"
           >
             <Button asChild size="lg" className="gradient-primary text-white">
-              <NextLink href="#contact">
+              <NextLink href="/contact">
                 Demander un Devis Gratuit
                 <ArrowRight className="w-5 h-5 ml-2" />
               </NextLink>
@@ -874,10 +874,10 @@ export default function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-white text-primary hover:bg-white/90 text-base px-8">
-                <a href="#contact" className="flex items-center space-x-2">
+                <Link href="/contact" className="flex items-center space-x-2">
                   <span>Demander un Audit Gratuit</span>
                   <ArrowRight className="w-5 h-5" />
-                </a>
+                </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white/20 text-base px-8">
                 <a href="tel:+237699699522" className="flex items-center space-x-2">
@@ -1123,10 +1123,10 @@ export default function HomePage() {
             <div>
               <h3 className="font-bold text-lg mb-4">Services</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#services" className="hover:text-primary transition-colors">Re-test & Maintenance</a></li>
-                <li><a href="#services" className="hover:text-primary transition-colors">Engineering</a></li>
-                <li><a href="#services" className="hover:text-primary transition-colors">Inspection & Audit</a></li>
-                <li><a href="#services" className="hover:text-primary transition-colors">Formation SSI</a></li>
+                <li><Link href="/services" className="hover:text-primary transition-colors">Re-test & Maintenance</Link></li>
+                <li><Link href="/services" className="hover:text-primary transition-colors">Engineering</Link></li>
+                <li><Link href="/services" className="hover:text-primary transition-colors">Inspection & Audit</Link></li>
+                <li><Link href="/services" className="hover:text-primary transition-colors">Formation SSI</Link></li>
               </ul>
             </div>
 
