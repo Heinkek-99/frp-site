@@ -121,7 +121,7 @@ export default function AboutPage() {
               À Propos de <span className="text-accent">Face Aux Risques</span>
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              22 ans d'expertise au service de la sécurité industrielle en Afrique Centrale
+              24 ans d'expertise au service de la sécurité industrielle en Afrique Centrale
             </p>
           </motion.div>
         </div>

@@ -193,7 +193,7 @@ export default function HomePage() {
   ]
 
   const stats = [
-    { value: 22, suffix: '+', label: 'Ans d\'Expérience', icon: <Award className="w-8 h-8" /> },
+    { value: 24, suffix: '+', label: 'Ans d\'Expérience', icon: <Award className="w-8 h-8" /> },
     { value: 500, suffix: '+', label: 'Sites Industriels Sécurisés', icon: <Factory className="w-8 h-8" /> },
     { value: 24, suffix: 'h/7j', label: 'Disponibilité', icon: <Clock className="w-8 h-8" /> },
     { value: 24, suffix: 'h', label: 'Délai d\'Intervention', icon: <Zap className="w-8 h-8" /> }
@@ -366,7 +366,7 @@ export default function HomePage() {
             >
               <div className="inline-flex items-center space-x-2 px-4 py-2 bg-primary/20 backdrop-blur-sm rounded-full mb-6">
                 <Award className="w-5 h-5 text-primary" />
-                <span className="text-sm font-medium text-white">22 ans d'expertise au Cameroun</span>
+                <span className="text-sm font-medium text-white">24 ans d'expertise au Cameroun</span>
               </div>
             </motion.div>
 
@@ -1115,7 +1115,7 @@ export default function HomePage() {
                 </div>
               </div>
               <p className="text-sm text-gray leading-relaxed">
-                22 ans d'expertise en sécurité incendie et gestion des risques industriels au Cameroun.
+                24 ans d'expertise en sécurité incendie et gestion des risques industriels au Cameroun.
               </p>
             </div>
 

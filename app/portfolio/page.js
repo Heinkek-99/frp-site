@@ -306,7 +306,7 @@ export default function PortfolioPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">22</div>
+              <div className="text-4xl md:text-5xl font-bold text-white mb-2">24</div>
               <p className="text-white/90">Ans d'Expérience</p>
             </motion.div>
             <motion.div
