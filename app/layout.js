@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'], display: 'swap' })
 
 export const metadata = {
   title: 'Face Aux Risques SA - Expert Sécurité Incendie & Risques Industriels Cameroun',
-  description: '22 ans d\'expertise en sécurité incendie, gestion des risques industriels et formations QHSE au Cameroun. Intervention rapide, conformité OHADA garantie. +237 699 699 522',
+  description: '24 ans d\'expertise en sécurité incendie, gestion des risques industriels et formations QHSE au Cameroun. Intervention rapide, conformité OHADA garantie. +237 699 699 522',
   keywords: 'sécurité incendie Cameroun, audit risques industriels Douala, formation SSI Yaoundé, maintenance extincteurs, inspection cuves pression, conformité OHADA, ENEO, Face Aux Risques',
   authors: [{ name: 'Face Aux Risques SA' }],
   openGraph: {

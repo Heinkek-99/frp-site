@@ -45,8 +45,9 @@ export default function ServicesPage() {
         'Tests de pression normalisés',
         'Analyse des résultats',
         'Rapport de conformité détaillé'
-      ],
-      tarif: 'Sur devis - Audit initial gratuit'
+      ]
+      // ,
+      // tarif: 'Sur devis - Audit initial gratuit'
     },
     {
       icon: <Wrench className="w-12 h-12" />,
@@ -66,8 +67,9 @@ export default function ServicesPage() {
         'Planning maintenance préventive',
         'Interventions sur site',
         'Suivi et traçabilité'
-      ],
-      tarif: 'À partir de 250 000 FCFA/an'
+      ]
+      // ,
+      // tarif: 'À partir de 250 000 FCFA/an'
     },
     {
       icon: <Settings className="w-12 h-12" />,
@@ -87,8 +89,9 @@ export default function ServicesPage() {
         'Conception sur-mesure',
         'Installation par équipes certifiées',
         'Mise en service et formation'
-      ],
-      tarif: 'Sur devis selon complexité'
+      ]
+      // ,
+      // tarif: 'Sur devis selon complexité'
     },
     {
       icon: <Search className="w-12 h-12" />,
@@ -108,8 +111,9 @@ export default function ServicesPage() {
         'Analyse documentaire',
         'Rapport d\'audit sous 48h',
         'Plan d\'action correctif'
-      ],
-      tarif: 'Audit initial GRATUIT'
+      ]
+      // ,
+      // tarif: 'Audit initial GRATUIT'
     },
     {
       icon: <Shield className="w-12 h-12" />,
@@ -129,8 +133,9 @@ export default function ServicesPage() {
         'Inspections sur site',
         'Tests de conformité',
         'Certification et traçabilité'
-      ],
-      tarif: 'Forfaits annuels disponibles'
+      ]
+      // ,
+      // tarif: 'Forfaits annuels disponibles'
     },
     {
       icon: <GraduationCap className="w-12 h-12" />,
@@ -150,8 +155,9 @@ export default function ServicesPage() {
         'Programme sur-mesure',
         'Sessions pratiques sur site',
         'Certification FDFP'
-      ],
-      tarif: '150 000 FCFA/jour (12 agents max)'
+      ]
+      // ,
+      // tarif: '150 000 FCFA/jour (12 agents max)'
     }
   ]
 
@@ -298,13 +304,13 @@ export default function ServicesPage() {
               Besoin d'un Service Personnalisé ?
             </h2>
             <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
-              Contactez-nous pour un devis gratuit et une évaluation de vos besoins. 
+              Contactez-nous pour un devis et une évaluation de vos besoins. 
               Notre équipe vous répond sous 24h.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-white text-primary hover:bg-white/90">
                 <Link href="/contact">
-                  Obtenir un Devis Gratuit
+                  Obtenir un Devis 
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Link>
               </Button>

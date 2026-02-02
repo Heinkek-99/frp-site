@@ -319,7 +319,7 @@ MONGO_URL=mongodb://localhost:27017
 DB_NAME=faceauxrisques_production
 NEXT_PUBLIC_BASE_URL=https://faceauxrisques.com
 CORS_ORIGINS=https://faceauxrisques.com
-RESEND_API_KEY=re_hQ5Ur94Q_Kg8CQjHN2kP3ZWdiSBPmfry2
+RESEND_API_KEY=LLLFLSKDFKSDJLFJSDKLFLSKDF
 ```
 
 ```bash
