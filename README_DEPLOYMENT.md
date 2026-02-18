@@ -402,7 +402,7 @@ MONGO_URL=mongodb://localhost:27017
 DB_NAME=faceauxrisques_db
 NEXT_PUBLIC_BASE_URL=<nouvelle-url-emergent>
 CORS_ORIGINS=*
-RESEND_API_KEY=re_hQ5Ur94Q_Kg8CQjHN2kP3ZWdiSBPmfry2
+RESEND_API_KEY=//////////EEZEKZEJ
 ```
 
 ```bash
