@@ -114,7 +114,7 @@ export async function POST(request) {
       `
 
       await resend.emails.send({
-        from: 'Face Aux Risques <test@faceauxrisques.com>',
+        from: 'Face Aux Risques <<anything>@kireurjen.resend.app>',
         to: 'heidy.kengne@faceauxrisques.com',
         replyTo: email,
         subject: `🔥 Nouvelle demande : ${serviceLabel} - ${nom}`,
